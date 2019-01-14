@@ -1,0 +1,61 @@
+#survey{
+    width: 30%;
+    margin-left: auto;
+    
+    margin-right: auto;
+}
+#q1{
+    width:500px;
+    height:100px;
+}
+#q2{
+    width:500px;
+    height:100px;
+}
+#q3{
+    width:500px;
+    height:100px;
+}
+
+
+
+.modal-title{
+    font-size: 30px;
+    font-family: 'Courgette', cursive;
+    color: purple;
+}
+.modal-body{
+    color: purple;
+}
+.modal-footer>a{
+    font-size: 18px;
+}
+#loginsubmit{
+    background-color: white;
+}
+
+
+
+
+body{
+    background-color: #D7BDE2;
+    min-width: 800px;
+    width: auto !important;
+    width: 800px;  
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.btn-primary{
+    background-color: #8E44AD;
+    border-color: #8E44AD;
+}
+.btn-primary:hover{
+    background-color: #633974;
+    border-color: #633974;
+}
+
+h1{
+    font-size: 30px;
+    font-family: 'Courgette', cursive;
+    color: purple;
+}
