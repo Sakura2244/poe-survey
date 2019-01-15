@@ -27,10 +27,17 @@
     height:100px;
 }
 
-
+.modal-header{
+  background: url(img3.jpg);
+  background-repeat: no-repeat;
+  background-size: 200px 100px;
+  background-position: right;
+  height:100px;
+  
+}
 
 .modal-title{
-    font-size: 30px;
+    font-size: 20px;
     font-family: 'Courgette', cursive;
     color: purple;
 }
@@ -38,7 +45,7 @@
     color: purple;
 }
 .modal-footer>a{
-    font-size: 18px;
+    font-size: 14px;
 }
 #loginsubmit{
     background-color: white;
@@ -48,7 +55,7 @@
 
 
 body{
-    background-color: #D7BDE2;
+    background-color: #f2f2f2;
     min-width: 800px;
     width: auto !important;
     width: 800px;  
@@ -58,6 +65,8 @@ body{
 .btn-primary{
     background-color: #8E44AD;
     border-color: #8E44AD;
+    width:80px;
+    height:40px;
 }
 .btn-primary:hover{
     background-color: #633974;
@@ -68,4 +77,74 @@ h1{
     font-size: 30px;
     font-family: 'Courgette', cursive;
     color: purple;
+}
+
+
+
+
+#poesurvey2{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+#surveyQ2{
+    color:#3377ff;
+    text-align: center;
+}
+#survey2{
+    width: 30%;
+    margin-left: auto;
+    text-align: center;
+    margin-right: auto;
+}
+#sq1{
+    font-size:16px;
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+    font-family: 'Iceland', cursive;
+    color: #0080ff;
+}
+
+
+.modal-title2{
+    font-size: 30px;
+    font-family: 'Iceland', cursive;
+    color: 	 #0040ff;
+    background: url(img1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height:110px;
+
+ 
+  
+  
+}
+#project{
+    background-color: rgba(255,255,255,0.6);
+    opacity:0.9;
+}
+
+.modal-body2{
+  color: #0080ff;
+  text-align: center;
+}
+
+.modal-footer2>a{
+    font-size: 14px;
+    text-align: center;
+}
+.btn-info{
+    background-color: #6699ff;
+    border-color: #4d88ff;
+    height:30px;
+    
+}
+.btn-info:hover{
+    background-color: #ccddff;
+    border-color: #4d88ff;
 }
